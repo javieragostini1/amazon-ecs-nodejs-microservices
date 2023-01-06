@@ -42,6 +42,15 @@ router.get('/api/posts/by-user/:userId', function *() {
   this.body = db.posts.filter((post) => post.user == id);
 });
 
+router.get('/api/reactions', function *() {
+  this.body = db.reactions;
+});
+
+router.get('/api/reactions/in-post/:postId', function *() {
+  const id = parseFloat(this.params.postId);
+  this.body = db.reactions.filter((reaction) => reaction.post == id);
+});
+
 router.get('/api/', function *() {
   this.body = "API ready to receive requests";
 });

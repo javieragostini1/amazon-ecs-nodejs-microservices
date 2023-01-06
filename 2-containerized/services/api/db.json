@@ -4,25 +4,29 @@
       "id": 1,
       "username": "marceline",
       "name": "Marceline Abadeer",
-      "bio": "1000 year old vampire queen, musician"
+      "bio": "1000 year old vampire queen, musician",
+      "birthday": "01/01/2000"
     },
     {
       "id": 2,
       "username": "finn",
       "name": "Finn 'the Human' Mertens",
-      "bio": "Adventurer and hero, last human, defender of good"
+      "bio": "Adventurer and hero, last human, defender of good",
+      "birthday": "05/11/1997"
     },
     {
       "id": 3,
       "username": "pb",
       "name": "Bonnibel Bubblegum",
-      "bio": "Scientist, bearer of candy power, ruler of the candy kingdom"
+      "bio": "Scientist, bearer of candy power, ruler of the candy kingdom",
+      "birthday": "03/08/2004"
     },
     {
       "id": 4,
       "username": "jake",
       "name": "Jake the Dog",
-      "bio": "Former criminal, now magical dog adventurer, and father"
+      "bio": "Former criminal, now magical dog adventurer, and father",
+      "birthday": "24/06/1989"
     }
   ],
 
@@ -46,34 +50,103 @@
 
   "posts": [
     {
+      "id": 1.1,
       "thread": 1,
       "text": "Has anyone checked on the lich recently?",
       "user": 4
     },
     {
+      "id": 1.2,
       "thread": 1,
       "text": "I'll stop by and see how he's doing tomorrow!",
       "user": 2
     },
     {
+      "id": 2.1,
       "thread": 2,
       "text": "Come party with the candy people tomorrow!",
       "user": 3
     },
     {
+      "id": 2.2,
       "thread": 2,
       "text": "Mathematical!",
       "user": 2
     },
     {
+      "id": 2.3,
       "thread": 2,
       "text": "I'll bring my guitar",
       "user": 1
     },
     {
+      "id": 3.1,
       "thread": 3,
       "text": "I need a new guitar to play the most savory licks in Ooo",
       "user": 1
+    }
+  ],
+
+  "reactions":[
+    {
+      "post": 1.1,
+      "likes": 0,
+      "loves": 1,
+      "cares": 0,
+      "hahas": 0,
+      "wows": 1,
+      "sads": 0,
+      "angrys": 0
+    },
+    {
+      "post": 1.2,
+      "likes": 1,
+      "loves": 1,
+      "cares": 0,
+      "hahas": 0,
+      "wows": 0,
+      "sads": 0,
+      "angrys": 0
+    },
+    {
+      "post": 2.1,
+      "likes": 0,
+      "loves": 0,
+      "cares": 0,
+      "hahas": 0,
+      "wows": 0,
+      "sads": 0,
+      "angrys": 0
+    },
+    {
+      "post": 2.2,
+      "likes": 1,
+      "loves": 0,
+      "cares": 0,
+      "hahas": 0,
+      "wows": 3,
+      "sads": 0,
+      "angrys": 0
+    },
+    {
+      "post": 2.3,
+      "likes": 0,
+      "loves": 2,
+      "cares": 0,
+      "hahas": 0,
+      "wows": 0,
+      "sads": 1,
+      "angrys": 0
+    },
+    {
+      "post": 3.1,
+      "likes": 0,
+      "loves": 1,
+      "cares": 0,
+      "hahas": 1,
+      "wows": 1,
+      "sads": 0,
+      "angrys": 1
     }
   ]
 }

@@ -5,6 +5,7 @@ DEPLOYABLE_SERVICES=(
 	users
 	threads
 	posts
+	reactions
 );
 
 PRIMARY='\033[0;34m'

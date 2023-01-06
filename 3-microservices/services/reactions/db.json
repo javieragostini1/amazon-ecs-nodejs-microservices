@@ -1,0 +1,64 @@
+{
+    "reactions":[
+        {
+          "post": 1.1,
+          "likes": 0,
+          "loves": 1,
+          "cares": 0,
+          "hahas": 0,
+          "wows": 1,
+          "sads": 0,
+          "angrys": 0
+        },
+        {
+          "post": 1.2,
+          "likes": 1,
+          "loves": 1,
+          "cares": 0,
+          "hahas": 0,
+          "wows": 0,
+          "sads": 0,
+          "angrys": 0
+        },
+        {
+          "post": 2.1,
+          "likes": 0,
+          "loves": 0,
+          "cares": 0,
+          "hahas": 0,
+          "wows": 0,
+          "sads": 0,
+          "angrys": 0
+        },
+        {
+          "post": 2.2,
+          "likes": 1,
+          "loves": 0,
+          "cares": 0,
+          "hahas": 0,
+          "wows": 3,
+          "sads": 0,
+          "angrys": 0
+        },
+        {
+          "post": 2.3,
+          "likes": 0,
+          "loves": 2,
+          "cares": 0,
+          "hahas": 0,
+          "wows": 0,
+          "sads": 1,
+          "angrys": 0
+        },
+        {
+          "post": 3.1,
+          "likes": 0,
+          "loves": 1,
+          "cares": 0,
+          "hahas": 1,
+          "wows": 1,
+          "sads": 0,
+          "angrys": 1
+        }
+    ]
+}
